@@ -1,0 +1,38 @@
+---
+format: docx
+description: "Cover letter to introduce the portfolio project for ENG 150"
+draft: true
+---
+
+Woolsthorpe Manor House, Water Ln 
+
+Grantham NG33 5PD 
+
+United Kingdom
+
+
+July 21, 2026
+
+
+Eliot Rosewater
+
+207 East Charlton Street
+
+Rosewater County CDP, IN 46234
+
+
+Dear Dr. Lanyard:
+
+
+This portfolio project will take the form of a narrative-driven reimagining of the MMTB essay. It will cannibalize ideas, content, and themes from that assignment, but with more of a focus on the personal struggles and triumphs of a mathematics undergraduate. These feelings will be conveyed through several blog posts by the thinly-fictional O.O. Fennel, a combination self-insert and caricature of the author. This project aims, as well, to capture the unrestrained spirit and almost uncomfortable familiarity of personal WordPress, Tumblr, and LiveJournal blogs during the Obama Interregnum. The bulk of the effort will rest in the emulation of those sorts of blogs—ostensibly informative pet projects which often revealed more about the creators than their intended subject matter. This mixed-media project will be hosted on a live webpage. It will combine text posts, code examples, and original musical compositions. The eclectic nature of the content is intended to sketch out a character and convey the amateurish authenticity and sincerity from that era of para-academic internet culture. Where the MMTB essay attempts an overview of and case for the field of study, this project aims to depict the joy, misery, and character of the math student.
+
+This letter will be rendered, edited, and expanded on the webpage itself. Too much time was spent on the description, so a pithy summary of three months follows. This class, mainly due to the efforts of its instructor, made introductory general English education into something other than a bland chore. There was a point. Thank you for that.
+
+
+Sincerely,
+
+
+
+
+
+Corey Silver

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  description: "Fennel's Mathepelagic Bloggus"
+  description: "GrandSlamVanDamme's Slammin Jam '"
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "fennel_olives_oranges"
   navbar:
@@ -11,8 +11,8 @@ website:
       - about.qmd
       - icon: github
         href: https://github.com/
-      - icon: bluesky
-        href: https://bsky.app/
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme:
