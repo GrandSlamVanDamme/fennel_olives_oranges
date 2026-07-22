@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docscom
+  output-dir: docs
 
 website:
   description: "Fennel's Mathepelagic Bloggus"
