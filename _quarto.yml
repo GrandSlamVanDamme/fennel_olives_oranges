@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docscom
 
 website:
-  description: "A blog built with Quarto"
+  description: "Fennel's Mathepelagic Bloggus"
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "fennel_olives_oranges"
   navbar:
