@@ -1,8 +1,32 @@
+---
+title: "Crisis"
+author: "O.O. Fennel"
+date: "2011-07-21"
+categories: [news, personal]
+image: "image.jpg"
+---
+
+# I can't breathe.
+
 This wasn't supposed to happen.
 \
 I'm not stupid.
+\
 I'm not stupid.
 \
 Am I?
 \
+There are no options remaining. There is no hope of recovery. I must flee the country. 
 
+Yesterday, something terrifying happened. Something I still don't fully understand. Am I reaching the edge of my ability?
+
+### I haven't **failed** before.
+
+What do I do now?
+
+
+::: {.callout}
+
+"brick, wall, textura" by bartoszjanusz is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.
+
+:::
