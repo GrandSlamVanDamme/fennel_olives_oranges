@@ -3,7 +3,10 @@
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/welcome/index.html",
+      "/posts/bibliography/index.html",
+      "/posts/cover_letter/index.html",
+      "/posts/Crisis/index.html"
     ]
   }
 ]

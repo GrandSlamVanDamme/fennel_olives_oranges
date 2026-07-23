@@ -2,7 +2,8 @@
 title: "fennel_olives_oranges"
 listing:
   contents: posts
-  feed: true
+  feed:
+    categories: [news, history, projects, personal, music]
   sort: "date desc"
   type: default
   categories: true

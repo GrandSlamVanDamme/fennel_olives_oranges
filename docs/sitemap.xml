@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
+    <loc>https://grandslamvandamme.github.io/fennel_olives_oranges/about.html</loc>
     <lastmod>2026-07-22T03:11:59.629Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-07-22T03:11:59.624Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
+    <loc>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/welcome/index.html</loc>
     <lastmod>2026-07-22T03:11:59.626Z</lastmod>
   </url>
   <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-07-22T03:11:59.628Z</lastmod>
+    <loc>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/post-with-code/index.html</loc>
+    <lastmod>2026-07-22T03:11:59.624Z</lastmod>
+  </url>
+  <url>
+    <loc>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/index.html</loc>
+    <lastmod>2026-07-23T17:20:57.799Z</lastmod>
   </url>
   <url>
     <loc>https://grandslamvandamme.github.io/fennel_olives_oranges/index.html</loc>
-    <lastmod>2026-07-22T03:11:59.628Z</lastmod>
+    <lastmod>2026-07-23T16:58:41.948Z</lastmod>
   </url>
 </urlset>
