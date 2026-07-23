@@ -20,7 +20,7 @@ draft: true
 
 1. Tzirtzi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
-### Documents (pseudo MLA format)
+### Works Cited (pseudo MLA format)
 
 1. "Guide." Quarto, Posit, https://quarto.org/docs/guide/. Accessed 22 Jul. 2026.
 2. 
