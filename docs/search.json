@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Fennel is a wizard who lives in the forest. He is the founder, president, and mascot of RATLABS ltd."
+    "text": "Fennel is a wizard who lives in the forest, living off of morning dew and gathered berries. He is the founder, president, and mascot of RATLABS ltd.\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig = plt.figure(figsize = (17,17))\n\n#####################################################################\n\nx = np.arange(-10, 10, 0.25)\ny = np.arange(-10, 10, 0.25)\n\nX, Y = np.meshgrid(x, y)\nN = 0*X\nS = 20 + 0*X\nE = 10 - Y\nW = Y + 10\n\n\n\nax1 = fig.add_subplot(1, 2, 1, projection = '3d')\n\nA = ax1.plot_surface(X, Y, N, cmap = 'hot')\nB = ax1.plot_surface(X, Y, S, cmap = 'hot_r')\nC = ax1.plot_surface(X, Y, E, cmap = 'cool')\nD = ax1.plot_surface(X, Y, W, cmap = 'cool_r')\n\n\nplt.show()\n\n#plt.legend()\n\n\n\n\n\n\n\n\n\nBehold"
   },
   {
     "objectID": "posts/bibliography/index.html",
