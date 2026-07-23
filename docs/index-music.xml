@@ -5,11 +5,11 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>fennel_olives_oranges</title>
+<title>Non-Euclidian Psychology</title>
 <link>https://grandslamvandamme.github.io/fennel_olives_oranges/#category=music</link>
 <atom:link href="https://grandslamvandamme.github.io/fennel_olives_oranges/index-music.xml" rel="self" type="application/rss+xml"/>
-<description> &#39;</description>
+<description>Explorations in $\mathbb{R}^3$</description>
 <generator>quarto-1.9.38</generator>
-<lastBuildDate>Thu, 23 Jul 2026 18:41:56 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 19:01:15 GMT</lastBuildDate>
 </channel>
 </rss>

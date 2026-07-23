@@ -1,6 +1,6 @@
 ---
 title: "Crisis"
-description: "I'm scared"
+description: "I'm scared."
 author: "Fennel"
 date: "7/21/11"
 draft: false
