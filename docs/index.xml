@@ -12,8 +12,46 @@
 <generator>quarto-1.9.38</generator>
 <lastBuildDate>Thu, 21 Jul 2011 06:00:00 GMT</lastBuildDate>
 <item>
+  <title>Site Sources</title>
+  <dc:creator>Fennel </dc:creator>
+  <link>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/bibliography/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="works-cited" class="level1">
+<h1>Works Cited</h1>
+<section id="pictures" class="level3">
+<h3 class="anchored" data-anchor-id="pictures">Pictures</h3>
+<ol type="1">
+<li><p>“brick, wall, textura” by bartoszjanusz is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.</p></li>
+<li><p>No machine-readable author provided. Inge Habex assumed (based on copyright claims)., CC BY-SA 3.0 <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="uri">http://creativecommons.org/licenses/by-sa/3.0/</a>, via Wikimedia Commons</p></li>
+<li><p>Joanna Servaes, CC BY-SA 3.0 <a href="http://creativecommons.org/licenses/by-sa/3.0/" class="uri">http://creativecommons.org/licenses/by-sa/3.0/</a>, via Wikimedia Commons</p></li>
+<li><p>Editor012456, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0" class="uri">https://creativecommons.org/licenses/by-sa/4.0</a>, via Wikimedia Commons</p></li>
+<li><p>Dunpharlain, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0" class="uri">https://creativecommons.org/licenses/by-sa/4.0</a>, via Wikimedia Commons</p></li>
+<li><p>Tzirtzi, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0" class="uri">https://creativecommons.org/licenses/by-sa/4.0</a>, via Wikimedia Commons</p></li>
+</ol>
+</section>
+<section id="works-cited-pseudo-mla-format" class="level3">
+<h3 class="anchored" data-anchor-id="works-cited-pseudo-mla-format">Works Cited (pseudo MLA format)</h3>
+<ol type="1">
+<li>“Guide.” Quarto, Posit, https://quarto.org/docs/guide/. Accessed 22 Jul.&nbsp;2026.</li>
+<li></li>
+</ol>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/bibliography/</guid>
+  <pubDate>Thu, 21 Jul 2011 06:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Crisis</title>
-  <dc:creator>O.O. Fennel</dc:creator>
+  <dc:creator>Fennel </dc:creator>
   <link>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/</link>
   <description><![CDATA[ 
 
@@ -48,11 +86,8 @@ There are no options remaining. There is no hope of recovery. I must flee the co
 </section>
 
  ]]></description>
-  <category>news</category>
-  <category>personal</category>
   <guid>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/</guid>
   <pubDate>Thu, 21 Jul 2011 06:00:00 GMT</pubDate>
-  <media:content url="https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
