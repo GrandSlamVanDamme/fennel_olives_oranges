@@ -2,7 +2,7 @@
 title: "About"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
       text: Github
@@ -10,4 +10,4 @@ about:
 
 ---
 
-Fennel is a wizard who lives in the forest. 
+Fennel is a wizard who lives in the forest, living off of morning dew and gathered berries. He is the founder, president, and mascot of RATLABS ltd. 

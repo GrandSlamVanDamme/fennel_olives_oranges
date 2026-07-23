@@ -1,5 +1,5 @@
 ---
-title: "fennel_olives_oranges"
+title: "Fennel's Library of Curiosities"
 listing:
   contents: posts
   sort: "date desc"
@@ -10,7 +10,7 @@ listing:
     categories: [news, history, projects, personal, music]
   filter-ui: false
 page-layout: full
-title-block-banner: true
+title-block-banner: < #C0C0C0 >
 ---
 
 
