@@ -1,9 +1,9 @@
 ---
 title: "Crisis"
-author: "O.O. Fennel"
-date: "2011-07-21"
-categories: [news, personal]
-image: "image.jpg"
+description: "I'm scared"
+author: "Fennel"
+date: "7/21/11"
+draft: false
 ---
 
 # I can't breathe.

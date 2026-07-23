@@ -3,7 +3,7 @@ title: "Site Sources"
 description: "A patently non-exhaustive compendium of my inspirations, sources, and fair use media"
 author: "Fennel"
 date: "7/21/11"
-draft: true
+draft: false
 ---
 
 # Works Cited
