@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Non-Euclidian Psychology</title>
+<link>https://grandslamvandamme.github.io/fennel_olives_oranges/#category=personal</link>
+<atom:link href="https://grandslamvandamme.github.io/fennel_olives_oranges/index-personal.xml" rel="self" type="application/rss+xml"/>
+<description>Explorations in $\mathbb{R}^3$</description>
+<generator>quarto-1.9.38</generator>
+<lastBuildDate>Thu, 21 Jul 2011 06:00:00 GMT</lastBuildDate>
+<item>
+  <title>Crisis</title>
+  <dc:creator>Fennel </dc:creator>
+  <link>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="i-cant-breathe." class="level1">
+<h1>I can’t breathe.</h1>
+<p>This wasn’t supposed to happen.<br>
+I’m not stupid.<br>
+I’m not stupid.<br>
+Am I?<br>
+There are no options remaining. There is no hope of recovery. I must flee the country.</p>
+<p>Yesterday, something terrifying happened. Something I still don’t fully understand. Am I reaching the edge of my ability?</p>
+<section id="i-havent-failed-before." class="level3">
+<h3 class="anchored" data-anchor-id="i-havent-failed-before.">I haven’t <strong>failed</strong> before.</h3>
+<p>What do I do now?</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>“brick, wall, textura” by bartoszjanusz is marked with CC0 1.0. To view the terms, visit https://creativecommons.org/publicdomain/zero/1.0/?ref=openverse.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <category>personal</category>
+  <guid>https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/</guid>
+  <pubDate>Thu, 21 Jul 2011 06:00:00 GMT</pubDate>
+  <media:content url="https://grandslamvandamme.github.io/fennel_olives_oranges/posts/Crisis/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
