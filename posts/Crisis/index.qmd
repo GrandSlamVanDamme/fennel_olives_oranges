@@ -4,6 +4,7 @@ description: "I'm scared."
 image: image.jpg
 author: "Fennel"
 date: "7/21/11"
+categories: [news, personal]
 draft: false
 ---
 

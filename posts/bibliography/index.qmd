@@ -25,4 +25,4 @@ draft: false
 ### Works Cited (pseudo MLA format)
 
 1. "Guide." Quarto, Posit, https://quarto.org/docs/guide/. Accessed 22 Jul. 2026.
-2. 
+
