@@ -116,7 +116,7 @@ There are no options remaining. There is no hope of recovery. I must flee the co
 <source src="slavic_dance_draft.mp3" type="audio/mpeg">
 <p>Your browser does not support the audio element. </p>
 <p>Nikolai Lobachevsky unambiguously, independently formulated an original theory of Non-Euclidian Geometry and published it in 1829 (O’Conner and Robertson, <em>Lobachevsky</em>). “Non-Euclidan”, by the way, simply mean a geometry where two parallel lines can meet. That doesn’t happen on a flat plane. Two West-going Zaxes will never cross paths. That <em>is</em>, however, what happens with parallel lines on the surface of a sphere or a horse’s saddle.</p>
-<div id="cc649724" class="cell" data-execution_count="1">
+<div id="880c3672" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
