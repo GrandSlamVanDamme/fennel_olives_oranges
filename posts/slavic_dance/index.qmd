@@ -5,6 +5,9 @@ image: image.jpg
 author: "Fennel"
 date: "7/09/11"
 categories: [history, music]
+jupyter: python3
+highlight-style: default
+code-block-bg: "#000000"
 draft: false
 ---
 
