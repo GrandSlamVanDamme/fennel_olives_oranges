@@ -24,6 +24,7 @@ I wrote a song, too. It turns out that it hits the ears in a lot of the same vit
 <audio controls>
   <source src="slavic_dance_draft.mp3" type="audio/mpeg">
   Your browser does not support the audio element.
+  </source>
 </audio>
 
 Nikolai Lobachevsky unambiguously, independently formulated an original theory of Non-Euclidian Geometry and published it in 1829 (O'Conner and Robertson, *Lobachevsky*). "Non-Euclidan", by the way, simply mean a geometry where two parallel lines can meet. That doesn't happen on a flat plane. Two West-going Zaxes will never cross paths. That *is*, however, what happens with parallel lines on the surface of a sphere or a horse's saddle. 
