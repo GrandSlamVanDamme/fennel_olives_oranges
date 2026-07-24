@@ -36,32 +36,187 @@
 <source src="slavic_dance_draft.mp3" type="audio/mpeg">
 <p>Your browser does not support the audio element. </p>
 <p>Nikolai Lobachevsky unambiguously, independently formulated an original theory of Non-Euclidian Geometry and published it in 1829 (O’Conner and Robertson, <em>Lobachevsky</em>). “Non-Euclidan”, by the way, simply mean a geometry where two parallel lines can meet. That doesn’t happen on a flat plane. Two West-going Zaxes will never cross paths. That <em>is</em>, however, what happens with parallel lines on the surface of a sphere or a horse’s saddle.</p>
-<pre class="{Python}"><code>fig = plt.figure(figsize = (17,17))
-
-#####################################################################
-
-x = np.arange(-10, 10, 0.25)
-y = np.arange(-10, 10, 0.25)
-X, Y = np.meshgrid(x, y)
-Z = X**2 - Y**2
-
-ax1 = fig.add_subplot(1, 2, 1, projection = '3d')
-A = ax1.plot_surface(X, Y, Z, cmap = 'copper')
-ax1.set_title('$f(x, y) = {x^2} - {y^2}$', fontsize = 17)
-
-######################################################################
-
-x = np.arange(-10, 10, 0.25)
-y = np.arange(-10, 10, 0.25)
-X, Y = np.meshgrid(x, y)
-Z = X**2 - Y**2
-
-ax2 = fig.add_subplot(1, 2, 2)
-AA = ax2.contour(X, Y, Z, cmap = 'copper', levels = 20)
-ax2.set_aspect('equal')
-ax2.set_title('$f(x, y) = {x^2} - {y^2}$', fontsize = 17)
-
-#######################################################################</code></pre>
+<div id="cc649724" class="cell" data-execution_count="1">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np </span>
+<span id="cb1-3"></span>
+<span id="cb1-4">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure(figsize <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">17</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">17</span>))</span>
+<span id="cb1-5"></span>
+<span id="cb1-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#####################################################################</span></span>
+<span id="cb1-7"></span>
+<span id="cb1-8">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>)</span>
+<span id="cb1-9">y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>)</span>
+<span id="cb1-10">X, Y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.meshgrid(x, y)</span>
+<span id="cb1-11">Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-12"></span>
+<span id="cb1-13">ax1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> fig.add_subplot(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, projection <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb1-14">A <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ax1.plot_surface(X, Y, Z, cmap <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'copper'</span>)</span>
+<span id="cb1-15">ax1.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'$f(x, y) = {x^2} - {y^2}$'</span>, fontsize <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">17</span>)</span>
+<span id="cb1-16"></span>
+<span id="cb1-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">######################################################################</span></span>
+<span id="cb1-18"></span>
+<span id="cb1-19">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>)</span>
+<span id="cb1-20">y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.arange(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>)</span>
+<span id="cb1-21">X, Y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.meshgrid(x, y)</span>
+<span id="cb1-22">Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-23"></span>
+<span id="cb1-24">ax2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> fig.add_subplot(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-25">AA <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> ax2.contour(X, Y, Z, cmap <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'copper'</span>, levels <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>)</span>
+<span id="cb1-26">ax2.set_aspect(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'equal'</span>)</span>
+<span id="cb1-27">ax2.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'$f(x, y) = {x^2} - {y^2}$'</span>, fontsize <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">17</span>)</span>
+<span id="cb1-28"></span>
+<span id="cb1-29"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#######################################################################</span></span></code></pre></div></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+<pre><code>Text(0.5, 1.0, '$f(x, y) = {x^2} - {y^2}$')</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://grandslamvandamme.github.io/fennel_olives_oranges/posts/slavic_dance/index_files/figure-html/cell-2-output-2.png" width="1284" height="646" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
 <p>Anyway, Lobachevsky and another mathematician named János Bolyai worked on this subject at around the same time. Bolyai first published two years after Lobachevsky’s formulation, though. Carl Gauss is in there, too (as always), but he had too many ideas to begin with and thus never bothered publishing these (O’Connor and Robinson, <em>Bolyai</em>).</p>
 <p>It bears repeating. There is no reason to even <em>suspect</em> that Nikolai Lobachevsky plagiarized anyone. There were no accusations during his lifetime, and the only person who anticipated him (privately, crucially) was the same guy that invented about a third of math overall.</p>
 <p>But this song, dude, it comes out in 1953 and every junior science club poindexter listens to it and it pervades popular culture <strong>utterly</strong>(Lehrer). To the point where a NYT article about plagiarism from 2002 mentions that Lobachevsky was “…cleared of all wrongdoing” in its third paragraph (Rothstein). He was never <em>cleared</em> of wrongdoing! Because he was never accused! It’s like when a shady lawyer asks “when did you stop dealing cocaine?”</p>

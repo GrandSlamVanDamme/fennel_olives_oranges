@@ -25,7 +25,11 @@ I wrote a song, too. It turns out that it hits the ears in a lot of the same vit
 
 Nikolai Lobachevsky unambiguously, independently formulated an original theory of Non-Euclidian Geometry and published it in 1829 (O'Conner and Robertson, *Lobachevsky*). "Non-Euclidan", by the way, simply mean a geometry where two parallel lines can meet. That doesn't happen on a flat plane. Two West-going Zaxes will never cross paths. That *is*, however, what happens with parallel lines on the surface of a sphere or a horse's saddle. 
 
-```{Python}
+```{python}
+
+import matplotlib.pyplot as plt
+import numpy as np 
+
 fig = plt.figure(figsize = (17,17))
 
 #####################################################################
